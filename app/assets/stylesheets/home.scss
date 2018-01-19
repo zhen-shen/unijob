@@ -1,0 +1,107 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 80px;
+    background: #404040;
+}
+.logo-name {
+    position: relative;
+    top: 21px;
+    color: white;
+    font-family: 'Encode Sans Expanded', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+}
+.logo-line{
+    position: absolute;
+    top: 12px;
+    width: 1px;
+    height: 50px;
+    background: white;
+}
+
+.logo-under-name{
+    position: relative;
+    top: 18px;
+    padding-left: 15px;
+    color: #363636;
+    font-family: 'Encode Sans Expanded', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+.img-userIcon {
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    width: 50px;
+}
+.content{
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    width: 100%;
+    height: 983px;
+    background-image: url(background.png);
+    background-size: 100%;
+}
+.main-menu {
+    position: absolute;
+    left: 0px;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    background: black;
+    opacity: 0.70;
+}
+.main-menu-button {
+    position: relative;
+    top: 25px;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin-left: 40px;
+    font-family: 'Encode Sans Expanded', sans-serif;
+}
+.img-searchIcon{
+    position: relative;
+    top:30px;
+    margin-left: 230px;
+    width: 30px;
+}
+.orange-line{
+    position: relative;
+    top: 100px;
+    width: 100%;
+    height: 2px;
+    background: #fd5618;
+}
+.input-main{
+    position: absolute;
+    top: 32px;
+    margin-left: 40px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    background: #ffffff !important;
+    outline: none;
+    height: 24px;
+    width: 180px;
+    color: black;
+    font-size: 15px;
+}
+.main-logo{
+    position: relative;
+    top:200px;
+    text-align: center;
+}
+.main-logo1{
+    width: 900px;
+}
